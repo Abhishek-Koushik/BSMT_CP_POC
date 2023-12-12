@@ -1,0 +1,116 @@
+.mainSection {
+  margin-top: 1rem;
+  margin-left: 2rem !important;
+  /* max-width: 80vw; */
+}
+
+.loadDataCard,
+.searchCard {
+  background-image: url(/src/assets/images/filter-bg.png);
+  background-size: cover;
+  /* max-width: 100vw; */
+}
+
+.dataCard {
+  margin-top: 2rem;
+}
+
+.searchCard {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.searchRow {
+  display: flex;
+  flex-direction: row;
+}
+
+#loadDataLabel {
+  color: #0076ce;
+  font-weight: 700;
+}
+
+.loadDataBody {
+  /* width: 90%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadDataBody label {
+  font-weight: 700;
+}
+
+.loadDataBody > * {
+  margin-right: 0.5rem;
+}
+
+.basic-single {
+  min-width: 200px;
+}
+
+.loadDataRow {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+#stepsContainer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.stepItem {
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background-color: #0076ce;
+  color: white;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* padding: 3rem; */
+}
+
+.activeStepItem {
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background-color: #6ea204 !important;
+  color: white;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.nav-link {
+  background-color: #41b6e6 !important;
+  color: white !important;
+  margin-right: 0.4rem;
+  border: 1px solid #0076ce !important;
+  border-bottom: none !important;
+}
+
+.nav-item > .active {
+  color: var(--bs-nav-tabs-link-active-color) !important;
+  background-color: var(--bs-nav-tabs-link-active-bg) !important;
+  /* border-color: var(--bs-nav-tabs-link-active-border-color) !important; */
+  border-color: #0076ce;
+}
+
+.nav-tabs {
+  border-color: #0076ce;
+}

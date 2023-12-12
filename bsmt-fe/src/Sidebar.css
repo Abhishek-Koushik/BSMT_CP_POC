@@ -1,0 +1,37 @@
+.sidebar {
+  margin-top: 1rem;
+  float: left;
+  height: 100vh;
+  background: #0076ce;
+  width: 15%;
+  padding: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar img {
+  margin-top: 1.2rem;
+  position: relative;
+  left: -2vw;
+  width: 16vw;
+}
+
+.sidebarMenu {
+  margin-top: 1rem;
+}
+
+.sidebarMenuItem {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.sidebarMenuItem i {
+  font-size: 20px !important;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sidebar img {
+    width: 16vw;
+  }
+}

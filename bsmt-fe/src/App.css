@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f8fd;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
